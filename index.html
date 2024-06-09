@@ -173,7 +173,7 @@
               <a href="tel:9447133777" class="btn btn-primary">Call Now</a>
             
 
-              <a href="#contact-us" class="btn btn-outline">Contact Us</a>
+              <a href="#" class="btn btn-outline" onclick="sendWhatsAppMessage()">Request a Callback</a>
 
             </div>
 
@@ -264,7 +264,7 @@
                 </p>
 
                 <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <span onclick="sendWhatsAppMessage()" class="span">Learn More</span>
 
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
@@ -286,7 +286,7 @@
                 </p>
 
                 <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <span onclick="sendWhatsAppMessage()" class="span">Learn More</span>
 
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
@@ -308,7 +308,7 @@
                 </p>
 
                 <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <span onclick="sendWhatsAppMessage()" class="span">Learn More</span>
 
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
@@ -329,7 +329,7 @@
                   Comprehensive vehicle insurance to protect your investment and provide peace of mind.
 
                 <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                  <span onclick="sendWhatsAppMessage()" class="span">Learn More</span>
 
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
@@ -726,15 +726,22 @@
 
       <section class="cta" aria-label="call to action">
         <div class="container">
-
+      
           <h2 class="h2 section-title">
             Ready to drive away with a smile and low interest rates? Connect with Car Loans Pathanamthitta and make your car dreams a reality! 🌐🔑
           </h2>
-
-          <a href="#" class="btn btn-primary">Call Now</a>
-
+      
+          <button class="new" onclick="sendWhatsAppMessage()">Request a Callback</button>
+      
         </div>
       </section>
+      
+      <script>
+        function sendWhatsAppMessage() {
+          // Replace 'YOUR_WHATSAPP_NUMBER' with the actual WhatsApp number
+          window.open('https://api.whatsapp.com/send?phone=+919447133777&text=Please call me back regarding car loans.', '_blank');
+        }
+      </script>
 
     </article>
   </main>
@@ -758,7 +765,7 @@
         </a>
 
         <p class="footer-text">
-          &copy; 2023 Car Loans Pathanamathitta. <br> All rights reserved.
+          &copy; 2024 Car Loans Pathanamathitta. <br> All rights reserved.
         </p>
 
         <ul class="social-list">
